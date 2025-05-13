@@ -12,19 +12,20 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.1",
-    "@types/express-serve-static-core": "^5.0.6",
-    "@types/node": "^22.15.17",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
-  },
   "dependencies": {
     "@stream-io/node-sdk": "^0.4.22",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "uploadthing": "^7.6.0"
+    "uploadthing": "^7.6.0",
+    "@types/cors": "^2.8.18",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.1",
+    "@types/express-serve-static-core": "^5.0.6",
+    "@types/node": "^22.15.17"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
