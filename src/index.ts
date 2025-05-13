@@ -11,7 +11,7 @@ dotenvConfig();
 const app = express();
 
 app.use(cors({
-  origin: 'https://fd586825-0d73-4971-99bb-4dfb1e26c3f0-00-slfd6nsxdkqv.picard.replit.dev',
+  origin: 'https://zionfx.netlify.app',
   methods: ['GET', 'POST'],
   credentials: true,
 }));
